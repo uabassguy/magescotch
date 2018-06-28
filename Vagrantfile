@@ -39,7 +39,8 @@ Vagrant.configure("2") do |config|
 
   mem = mem / 1024 / 4
     config.vm.provider "virtualbox" do |v|
-  	v.cpus = 2
+  	    v.cpus = 2
+  	    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
         v.customize ["modifyvm", :id, "--memory", mem]
     end
 

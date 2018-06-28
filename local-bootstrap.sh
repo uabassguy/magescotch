@@ -8,8 +8,8 @@ echo "Running local bootstrap file."
 
 # Adjust and uncomment the following lines
 
-# git config --global user.name "Your Name"
-# git config --global user.email "your_email@example.com"
+git config --global user.name "Dave Wilson"
+git config --global user.email "uabassguy@gmail.com"
 
 # If you have access to Magento Enterprise and would like to setup a Magento Enterprise instance, uncomment the following line
 
